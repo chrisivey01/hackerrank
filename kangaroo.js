@@ -1,3 +1,5 @@
+//https://www.hackerrank.com/challenges/kangaroo/problem?h_r=profile
+
 'use strict';
 
 const fs = require('fs');
@@ -38,32 +40,6 @@ function kangaroo(x1, v1, x2, v2) {
         }
     }
     return "NO"
-
-    // let kangaroo1 = x1 + v1;
-    // let kangaroo2 = x2 + v2;
-    //
-    // if(kangaroo1 % kangaroo2 === 0 || kangaroo2 % kangaroo1 === 0 ){
-    //     return "YES"
-    // }else{
-    //     return "NO"
-    // }
-    // let jumps = 0;
-    // while((kangaroo1 !== kangaroo2) || (kangaroo1 >= 10000 || kangaroo2 >= 10000) ){
-    //     kangaroo1 += x1 + v1;
-    //     kangaroo2 += x2 + v2;
-    //     jumps++
-    // }
-    //
-    // console.log(kangaroo1 + " " + kangaroo2);
-    // console.log(jumps);
-    //
-    // if(kangaroo1 === kangaroo2){
-    //     return "YES"
-    // }else{
-    //     return "NO"
-    // }
-
-
 }
 
 function main() {
